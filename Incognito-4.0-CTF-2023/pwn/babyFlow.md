@@ -25,3 +25,6 @@ lets see whats happening when given overflow input using `gdb`
 
 ![](images/pwn5.png)
 
+we can see $eip is overwritten with `gaaa` . lets find out the offset for it
+
+![](images/pwn6.png)
