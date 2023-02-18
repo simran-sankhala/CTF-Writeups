@@ -14,11 +14,12 @@ as expected `Segment fault`.
 
 ![](images/pwn3.png)
 
-lets see whats happening when given overflow input using `gdb`
-but first let us check the functions of this binary .
+First let us check the functions of this binary .
 
 ![](images/pwn4.png)
 
 we can see there;s a `get_shell` function. seems interesting & another called `vulnerable_function`
 
 ![](images/pwn5.png)
+
+lets see whats happening when given overflow input using `gdb`
