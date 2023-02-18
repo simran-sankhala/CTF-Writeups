@@ -10,6 +10,10 @@ no Canary , no PIE , no NX enabled. so it should be a simple buf. well lets try
 
 as expected `Segment fault`.
 
-lets see whats happening when given overflow input using `gdb`
+
 
 ![](images/pwn3.png)
+
+lets see whats happening when given overflow input using `gdb`
+
+![](images/pwn4.png)
