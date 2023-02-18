@@ -1,4 +1,4 @@
-The challenge title was : Ancient
+## Ancient
 
 in the description there was a file given called `Challenge.png` but when i tried to open it , 
 it showed not a valid png ,
@@ -13,7 +13,7 @@ https://github.com/sherlly/PCRT
 ![](../images/crypto01.png)
 
 finally the png loaded , the image was containing some type of symbol cipher it seemed to me,
-so after alot of googling i found out its `Old Monk Cipher` . so used its manual page & got the values corresponding to our challenge image
+so after alot of googling & the chall title was `Ancient` i found out its `Old Monk Cipher` . so used its manual page & got the values corresponding to our challenge image
 
 
 ![](../images/crypto1.png)
