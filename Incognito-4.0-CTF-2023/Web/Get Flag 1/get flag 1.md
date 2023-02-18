@@ -1,3 +1,3 @@
 ## Challenge Description
 
-![](images/web1.png)
+![](../images/web1.png)
