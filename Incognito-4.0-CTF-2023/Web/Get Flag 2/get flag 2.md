@@ -14,6 +14,8 @@ http://[::]:9001/flag.txt
 
 ![](../images/web6.png)
 
+the `[::]` is basically the representation of IPv6’s localhost.
+
 ### The Flag
 
 ![](../images/web7.png)
