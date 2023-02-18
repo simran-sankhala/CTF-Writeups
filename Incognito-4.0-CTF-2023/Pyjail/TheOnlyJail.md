@@ -8,3 +8,16 @@ i saw it was a python jail escape challenge , so i tried multiple bypass payload
 blacklisting `_` , `/` , `;` , `+` , `open` , `eval` , `exec` .
 
 ![](images/jail1.png)
+
+
+so i tried something really simple payload using `os` module
+
+Payload : 
+```py
+import os
+os.system("bash")
+```
+
+![](images/jail2.png)
+
+& bingo it gave us a normal bash shell , which means we escaped the python environment , next just cat the flag out :)
