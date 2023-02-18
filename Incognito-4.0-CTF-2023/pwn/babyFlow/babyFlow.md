@@ -6,24 +6,24 @@ lets check the given binary with `checksec` & see what protections are there in 
 
 no Canary , no PIE , no NX enabled. so it should be a simple buf. well lets try 
 
-![](images/pwn2.png)
+![](../images/pwn2.png)
 
 as expected `Segment fault`.
 
 
 
-![](images/pwn3.png)
+![](../images/pwn3.png)
 
 First let us check the functions of this binary .
 
-![](images/pwn4.png)
+![](../images/pwn4.png)
 
 we can see there;s a `get_shell` function. seems interesting & another called `vulnerable_function`
 
 lets see whats happening when given overflow input using `gdb`
 
 
-![](images/pwn5.png)
+![](../images/pwn5.png)
 
 we can see $eip is overwritten with `gaaa` . lets find out the offset for it
 
@@ -37,4 +37,4 @@ let us craft our exploit with offset as 24 + A's & then invoke `get_shell` funct
 
 ## Exploit
 
-![](images/final-pwn.png)
+![](../images/final-pwn.png)
