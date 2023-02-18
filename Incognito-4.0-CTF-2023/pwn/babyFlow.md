@@ -34,3 +34,7 @@ okay so we got the offset `24` .
 let us craft our exploit with offset as 24 + A's & then invoke `get_shell` function to get us a shell.
 
 ![](images/pwne7.png)
+
+## Exploit
+
+![](images/final-pwn.png)
