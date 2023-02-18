@@ -13,6 +13,13 @@ https://github.com/sherlly/PCRT
 ![](../images/crypto01.png)
 
 finally the png loaded , the image was containing some type of symbol cipher it seemed to me,
-so after alot of googling i found out its `Old Monk Cipher`
+so after alot of googling i found out its `Old Monk Cipher` . so used its manual page & got the values corresponding to our challenge image
+
 
 ![](../images/crypto1.png)
+
+put those values in `CyberChef` & Bake with Magic Module
+
+Boom got the flag
+
+![](../images/crypto2.png)
