@@ -28,3 +28,9 @@ lets see whats happening when given overflow input using `gdb`
 we can see $eip is overwritten with `gaaa` . lets find out the offset for it
 
 ![](images/pwn6.png)
+
+okay so we got the offset `24` .
+
+let us craft our exploit with offset as 24 + A's & then invoke `get_shell` function to get us a shell.
+
+![](images/pwne7.png)
