@@ -1,3 +1,3 @@
-### Static Analsis
+### Static Analysis
 
 ![](../Images/rev2.png)
