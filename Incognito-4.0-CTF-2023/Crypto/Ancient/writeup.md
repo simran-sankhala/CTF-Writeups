@@ -11,3 +11,8 @@ so i used a Tool called `PCRT` which fixes png header automatically.
 https://github.com/sherlly/PCRT
 ```
 ![](../images/crypto01.png)
+
+finally the png loaded , the image was containing some type of symbol cipher it seemed to me,
+so after alot of googling i found out its `Old Monk Cipher`
+
+![](../images/crypto1.png)
