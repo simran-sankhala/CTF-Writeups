@@ -11,3 +11,14 @@ it seems like it may be vulnerable to SSRF (Server-Side Request Forgery)! Which 
 so lets try Hacktricks
 
 ![](../images/hack.png)
+
+so after few trial & error this payload seemed to be working :
+```http
+http://127.1:9001/flag.txt
+```
+
+![](../images/web4.png)
+
+### Got the flag
+
+![](../images/web5.png)
