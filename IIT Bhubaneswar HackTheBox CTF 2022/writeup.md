@@ -2,9 +2,9 @@
 
   
 It was a boot2root CTF competition Conducted By IIT Bhubaneswar .
-  
+#### Machine IP :
 ```http
-  Machine IP : 191.101.3.104
+ 191.101.3.104
 ```
 ### Nmap Scan
 ```sh
