@@ -8,7 +8,7 @@ lets open this binary in `Binary-Ninja`
 
 Analysing the functions we got :
 
-![Untitled](wCTF%202023%20(SeaSides%20GOA)%20b518994d10eb40e992fc45cc25c4f84e/Untitled.png)
+![Untitled](PoC/Untitled.png)
 
 so its basically taking the flag as password in md5 form ,
 
@@ -29,7 +29,7 @@ so tried the webway :
 
 `<bucket-name>.s3.amazonaws.com`  , then just fuzzed the endpoint for flag , which was : `flag.txt`
 
-![Untitled](wCTF%202023%20(SeaSides%20GOA)%20b518994d10eb40e992fc45cc25c4f84e/Untitled%201.png)
+![Untitled](PoC/Untitled%201.png)
 
 ## Web
 
@@ -43,7 +43,7 @@ http://65.2.167.55:12000/search?term=../../../../../../../etc/passwd&sample=../.
 
 after getting the flag path , just used curl with grep to get the exact flag :
 
-![Untitled](wCTF%202023%20(SeaSides%20GOA)%20b518994d10eb40e992fc45cc25c4f84e/Untitled%202.png)
+![Untitled](PoC/Untitled%202.png)
 
 ## Crypto
 
@@ -63,7 +63,7 @@ it seemed like `XOR`
 
 so i used `Cyberchef` to bruteforce the key 🔑 & got the flag using key `18` :
 
-![Untitled](./Untitled3.png)
+![Untitled](PoC/Untitled%203.png)
 
 it can be solved the scripting way as well using `pwntools` in python :
 
@@ -73,16 +73,16 @@ ff = 'K]YKQ]Kc(y!(|.~-.!|(+z)!,,,}/{)+ // ~ ()e'
 print(xor(ff, 0x18))
 ```
 
-![Untitled](./Untitled%204.png)
+![Untitled](PoC/Untitled%204.png)
 
 ## OSINT
 
 for the osint challenge , in description one image was given `inc.jpg`
 
-![Untitled](wCTF%202023%20(SeaSides%20GOA)%20b518994d10eb40e992fc45cc25c4f84e/Untitled%205.png)
+![Untitled](PoC/Untitled%205.png)
 
 after doing reverse cross image search for a while , when i didnt get any results ,
 
 i thought of checking the photo’s metadata using `exiftool` & luckily the flag was there lol :
 
-![Untitled](wCTF%202023%20(SeaSides%20GOA)%20b518994d10eb40e992fc45cc25c4f84e/Untitled%206.png)%
+![Untitled](PoC/Untitled%206.png)
